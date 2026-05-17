@@ -26,7 +26,9 @@ Steps to Reproduce:
 6. Observe response changes to: "Incorrect password"
 7. Valid username is now confirmed
 
-Evidence: [screenshots here]
+Evidence:
+![Invalid username response](../screenshots/Screenshot_20260515_000827.png)
+![Valid username response](../screenshots/Screenshot_20260515_001235.png)
 
 Security Impact:
 Confirmed username existence allows attackers to conduct targeted brute force, credential stuffing, or phishing attacks against valid accounts, increasing the likelihood of successful account compromise. 
